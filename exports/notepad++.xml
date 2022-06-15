@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="42013" Ctrl="yes" Alt="no" Shift="yes" Key="76" />
+        <Shortcut id="43009" Ctrl="yes" Alt="no" Shift="no" Key="221" />
+        <Shortcut id="43053" Ctrl="yes" Alt="no" Shift="yes" Key="221" />
+        <Shortcut id="42052" Ctrl="yes" Alt="no" Shift="yes" Key="86" />
+        <Shortcut id="44022" Ctrl="yes" Alt="no" Shift="no" Key="222" />
+        <Shortcut id="44025" Ctrl="yes" Alt="no" Shift="yes" Key="222" />
+        <Shortcut id="42022" Ctrl="yes" Alt="no" Shift="no" Key="191" />
+        <Shortcut id="42023" Ctrl="yes" Alt="no" Shift="no" Key="220" />
+        <Shortcut id="42047" Ctrl="yes" Alt="no" Shift="yes" Key="220" />
+        <Shortcut id="42014" Ctrl="no" Alt="yes" Shift="no" Key="38" />
+        <Shortcut id="42015" Ctrl="no" Alt="yes" Shift="no" Key="40" />
+        <Shortcut id="42029" Ctrl="yes" Alt="yes" Shift="no" Key="67" />
+        <Shortcut id="41019" Ctrl="yes" Alt="yes" Shift="no" Key="69" />
+        <Shortcut id="48011" Ctrl="yes" Alt="yes" Shift="no" Key="83" />
+        <Shortcut id="41008" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="10003" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="10004" Ctrl="yes" Alt="no" Shift="yes" Key="78" />
+        <Shortcut id="44010" Ctrl="yes" Alt="no" Shift="no" Key="77" />
+        <Shortcut id="44029" Ctrl="yes" Alt="no" Shift="yes" Key="77" />
+        <Shortcut id="43054" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44085" Ctrl="no" Alt="yes" Shift="no" Key="49" />
+        <Shortcut id="44051" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44052" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44054" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44056" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44058" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44057" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44055" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44053" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44061" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44062" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44063" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44065" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44066" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44068" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44067" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44064" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44030" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44031" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="41020" Ctrl="no" Alt="yes" Shift="no" Key="192" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Trim Trailing Space and Save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Get PHP help" Ctrl="no" Alt="yes" Shift="no" Key="112">https://www.php.net/$(CURRENT_WORD)</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">https://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="Open selected file path in new instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_FULL_FILE_PATH) $(CURRENT_WORD) -nosession -multiInst</Command>
+    </UserDefinedCommands>
+    <PluginCommands>
+        <PluginCommand moduleName="CodeAlignmentNpp.dll" internalID="8" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="CodeAlignmentNpp.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NPPJSONViewer.dll" internalID="1" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NPPJSONViewer.dll" internalID="2" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </PluginCommands>
+    <ScintillaKeys>
+        <ScintKey ScintID="2337" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2338" menuCmdID="0" Ctrl="yes" Alt="no" Shift="no" Key="76" />
+        <ScintKey ScintID="2413" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2414" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="0" />
+        <ScintKey ScintID="2415" menuCmdID="0" Ctrl="yes" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2416" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="0" />
+        <ScintKey ScintID="2390" menuCmdID="0" Ctrl="yes" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2391" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="0" />
+        <ScintKey ScintID="2392" menuCmdID="0" Ctrl="yes" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2393" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="0" />
+        <ScintKey ScintID="2373" menuCmdID="44033" Ctrl="yes" Alt="no" Shift="yes" Key="189" />
+        <ScintKey ScintID="2333" menuCmdID="44023" Ctrl="yes" Alt="no" Shift="no" Key="187" />
+        <ScintKey ScintID="2334" menuCmdID="44024" Ctrl="yes" Alt="no" Shift="no" Key="189" />
+    </ScintillaKeys>
+</NotepadPlus>
